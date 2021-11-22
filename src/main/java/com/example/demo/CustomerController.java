@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.dao.CustomerDAO;
 import com.example.demo.entity.Customer;
 
+//기본 jpa
 @RestController
 public class CustomerController {
 	private CustomerDAO customerDAO;
